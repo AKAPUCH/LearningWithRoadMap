@@ -21,7 +21,7 @@
 #### Xcode 사용법 & 플레이그라운드
 #### 문법
 - swift & 함수형 프로그래밍
-- objective-c & 객체지향 프로그래밍
+- [objective-c & 객체지향 프로그래밍](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/objective-c)
 - `objective-c++`
 ### 공통 주제
 #### HIG

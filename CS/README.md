@@ -19,7 +19,7 @@
 	- 방향 그래프
 	- 무방향 그래프
 	- Spanning Tree
-	- 그래프 표현 : Adjacency Matrix, Adjacency List
+	- 그래프 표현방식(인접 행렬/리스트)
 - 힙 
 - 링크드리스트
 - 스택

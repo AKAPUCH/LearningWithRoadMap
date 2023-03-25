@@ -16,8 +16,8 @@
 ### 자료구조
 - 배열
 - 그래프
-	- Directed 그래프
-	- Undirected 그래프
+	- 방향 그래프
+	- 무방향 그래프
 	- Spanning Tree
 	- 그래프 표현 : Adjacency Matrix, Adjacency List
 - 힙 

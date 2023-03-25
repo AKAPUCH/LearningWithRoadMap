@@ -5,6 +5,8 @@
 
 ## 로드맵들
 
+    필자의 학습순서는 처음 배우는 내용 -> 기존에 알고있던 내용 순입니다.
+
 ### [ios](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios)
 ### [Swift](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/Swift)
 ### [Computer Science](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/CS)

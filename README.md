@@ -3,10 +3,13 @@
 
     개발의 왕도는 없지만, 학습 방향이 정해지지 않아 방황하거나 체계적인 계획을 통해 학습하고 싶은 사람을 위한 길잡이이자 등대입니다.
 
+
 <details>
 <summary>ios 로드맵</summary>
 <div markdown="1">
 
+[원본 : 코드스쿼드 고드름님 레포](https://github.com/godrm/mobile-developer-roadmap)	
+	
 <details>
 <summary>2023 ios 개발 로드맵 이미지</summary>
 <div markdown="2">
@@ -42,11 +45,14 @@
 ### 주제별 Deep-dive
 #### Swift
 -  프로토콜 지향 프로그래밍
+	- Value Semantics
+	- Generics
 - 동시성 프로그래밍
 	- DispatchQueue
 - 고급 디자인 패턴
 	- VIPER
 	- MVVM
+	- ReactorKit
 #### Obejctive-C
 - Manual Memory Management(MRC, ARC)
 - 동시성 프로그래밍
@@ -61,6 +67,9 @@
 - Cocoa Touch
 - Core Data
 #### 반응형 프로그래밍
+- Combine
+	- SWIFTUI
+	- VIPER 적용?
 - RXSwift
   - MVVM 적용
 - ReactiveCocoa
@@ -96,6 +105,7 @@
 - XCTest
 	- TDD
 	- Mocks
+	- Quick/Nimble
 - UITest
 - Code Coverage
 #### 디버깅
@@ -109,6 +119,7 @@
 #### CI
 - `Jenkins`
 - Fastlane
+- bitrise
 - Travis
 - Xcode Server
 #### 분석 도구

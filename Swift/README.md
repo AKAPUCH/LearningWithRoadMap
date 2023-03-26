@@ -20,7 +20,7 @@
 - While, For-In 반복문
 - guard문
 - switch-case, If-else
-- #Availability
+- [#Available](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/Swift/%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4/%23available)
 ### 함수
 - Opaque Types
 - 파라미터와 반환 값

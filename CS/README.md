@@ -45,8 +45,8 @@
 	- 퀵 소트
 	- 병합 정렬
 - 그래프
-	- BFS
-	- [DFS](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/CS/CommonAlgorithm/Graph/BFS)
+	- [DFS](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/CS/CommonAlgorithm/Graph/DFS)
+	- [BFS](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/CS/CommonAlgorithm/Graph/BFS)
 	- 벨만포드
 	- 다익스트라
 	- A* 알고리즘

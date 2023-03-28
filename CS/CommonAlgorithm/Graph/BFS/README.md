@@ -13,4 +13,35 @@
 4. 대기열의 첫번째 정점을 빼내서 배열에 저장하고 그 정점의 이웃 정점들을 대기열에 추가합니다.
 5. 4번 과정을 계속 반복합니다. 대기열에 남아있는 정점이 없다면 탐색을 종료합니다.
 6. 배열 끝에 정점을 append()하는 식으로 저장했다면 정점을 방문한 순서를 알 수 있습니다. 
-## 활용 : 최단거리 구하기
+## 활용 1 : [백준 2606번 바이러스](https://www.acmicpc.net/problem/2606)
+
+<details>
+<summary>구현 코드</summary>
+
+```swift
+let v = Int(readLine()!)!
+let e = Int(readLine()!)!
+var cnt = 0
+var vertexArr : [[Int]] = Array(repeating : [], count : v+1)
+for _ in 0..<e {
+  let edge = readLine()!.split(separator: " ").map{Int(String($0))!}
+  vertexArr[edge[0]].append(edge[1]) // 간선을 저장
+  vertexArr[edge[1]].append(edge[0]) // 무방향이므로 반대방향도 넣기
+}
+var visitCheckArr : [Bool] = Array(repeating: false, count: v+1)
+var queue : [Int] = []
+queue.append(1)
+visitCheckArr[1] = true
+while !queue.isEmpty {
+  let visitVertex = queue.removeFirst()
+  for neighborVertex in vertexArr[visitVertex] {
+    if visitCheckArr[neighborVertex] {continue}
+    visitCheckArr[neighborVertex] = true
+    cnt += 1
+    queue.append(neighborVertex)
+  }
+}
+
+print(cnt)
+```
+</details>

@@ -19,7 +19,7 @@
 ### 공통 주제
 #### HIG
 #### ios 기술
-- multi-touch-event-handling
+- [multi-touch-event-handling](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/commonSubject/iosSkills/multi-touch-event-handling)
 - app life cycle
 - app architect
 - view-viewcontroller programming & AutoLayout

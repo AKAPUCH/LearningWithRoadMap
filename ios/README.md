@@ -20,7 +20,7 @@
 #### HIG
 #### ios 기술
 - [multi-touch-event-handling](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/commonSubject/iosSkills/multi-touch-event-handling)
-- app life cycle
+- [app life cycle](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/commonSubject/iosSkills/multi-touch-event-handling)
 - app architect
 - view-viewcontroller programming & AutoLayout
 #### 코코아 디자인 패턴
@@ -41,7 +41,7 @@
 	- DispatchQueue
 - 고급 디자인 패턴
 	- VIPER
-	- MVVM
+	- [MVVM](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/DeepDive/Swift/DesignPattern/MVVM)
 	- ReactorKit
 #### Obejctive-C
 - Manual Memory Management(MRC, ARC)
@@ -74,13 +74,13 @@
 - `Cloud`
 	- iCloud
 	- FireBase
-#### 프로젝트 & 워크스페이스 관리
+#### [프로젝트 & 워크스페이스 관리](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/DeepDive/Project%26Workspace%20Manage)
 - Build Config
 - `Scheme`
 - Target
 - 패키지 매니저
 	- Swift Package Manager(SPM)
-	- CocoaPods
+	- [CocoaPods](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/DeepDive/Project%26Workspace%20Manage/CocoaPods)
 	- `Carthage`
 #### 테스트
 - Instruments
@@ -99,7 +99,7 @@
 - UITest
 - Code Coverage
 #### 디버깅
-- LLDB
+- [LLDB](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/Debugging/LLDB)
 - Break-Pointer
 - `Gauges`
 - `Visual Debugging & Sanitizer`

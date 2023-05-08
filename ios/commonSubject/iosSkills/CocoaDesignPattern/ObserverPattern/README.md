@@ -7,8 +7,8 @@
 ### 구조
 ![observer](https://user-images.githubusercontent.com/116094622/236803608-dd614f07-7692-4a9a-affa-94914fae46c1.png)
 
-- subscriber : value의 변화마다 값을 갱신받고 싶은 view의 객체입니다.
-- publisher : subscriber(view의 객체)의 사용자 상호작용에 따른 변화를 모델의 value에 반영하여 업데이트하고 view의 값을 갱신합니다.
+- subscriber : observer로서, publisher의 변화를 관찰하고 있습니다.
+- publisher : subscriber(view의 객체)의 사용자 상호작용에 따른 변화를 모델의 value에 반영하여 업데이트하고 view의 값을 갱신하는 Observable 객체입니다.
 - value : 현재 관찰하고 있는 값입니다. 실시간으로 변화가 반영됩니다.
 
 ## MVC에서의 사용예시

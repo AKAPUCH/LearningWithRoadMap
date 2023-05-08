@@ -24,11 +24,11 @@
 - app architect
 - view-viewcontroller programming & AutoLayout
 #### 코코아 디자인 패턴
-- MVC 패턴
+- [MVC 패턴](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/commonSubject/iosSkills/CocoaDesignPattern/MVCPattern)
 - 싱글톤 패턴
 - Delegate 패턴
-- responder-chain 패턴
-- observer 패턴
+- [responder-chain 패턴](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/commonSubject/iosSkills/CocoaDesignPattern/responder-chain%20Pattern)
+- [observer 패턴](https://github.com/AKAPUCH/LearningWithRoadMap/tree/main/ios/commonSubject/iosSkills/CocoaDesignPattern/ObserverPattern)
 #### 네트워크 프로그래밍
 - restful-apis
 - `TCP/IP socket apis`
